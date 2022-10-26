@@ -119,6 +119,7 @@ public class ClientConsole implements ChatIF
     }
     ClientConsole chat= new ClientConsole(host, DEFAULT_PORT);
     chat.accept();  //Wait for console data
+    
   }
 }
 //End of ConsoleChat class

@@ -57,6 +57,7 @@ public class ChatClient extends AbstractClient
   public void handleMessageFromServer(Object msg) 
   {
     clientUI.display(msg.toString());
+    
   }
 
   /**
@@ -90,5 +91,8 @@ public class ChatClient extends AbstractClient
     catch(IOException e) {}
     System.exit(0);
   }
+
+
+  
 }
 //End of ChatClient class
